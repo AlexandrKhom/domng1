@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {usersWithAddress} from '../data/data';
 
 @Component({
   selector: 'app-dom1',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dom1.component.css']
 })
 export class Dom1Component implements OnInit {
-
+  usersWithAddress = usersWithAddress;
   constructor() { }
 
   ngOnInit(): void {
