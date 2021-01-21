@@ -7,7 +7,9 @@ import { Dom1Component } from './dom1/dom1.component';
 @NgModule({
   declarations: [
     AppComponent,
-    Dom1Component
+    Dom1Component //Users
+    // UserComponent //User
+    // AddressComponent //Address
   ],
   imports: [
     BrowserModule

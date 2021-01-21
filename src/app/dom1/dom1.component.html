@@ -1,3 +1,14 @@
 <div *ngFor="let user of usersWithAddress">
   {{user.name}} - {{user.age}} - {{user.address | json}}
 </div>
+
+<!--<div *ngFor="let user of usersWithAddress">-->
+<!--  <app-user [user]="user"></app-user>-->
+<!--</div>-->
+<!--<div >-->
+<!--  {{user.name}} - {{user.age}} - {{user.address | json}}-->
+<!--  <app-address [address]="user.address"></app-address>-->
+<!--</div>-->
+<!--<div>-->
+<!--  {{address.name}} - {{address.age}} - {{address.address}}-->
+<!--</div>-->
